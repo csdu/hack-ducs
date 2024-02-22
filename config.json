@@ -1,21 +1,22 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+    "██╗  ██╗ █████╗  ██████╗██╗  ██╗    ██████╗ ██╗   ██╗ ██████╗███████╗",
+    "██║  ██║██╔══██╗██╔════╝██║ ██╔╝    ██╔══██╗██║   ██║██╔════╝██╔════╝",
+    "███████║███████║██║     █████╔╝     ██║  ██║██║   ██║██║     ███████╗",
+    "██╔══██║██╔══██║██║     ██╔═██╗     ██║  ██║██║   ██║██║     ╚════██║",
+    "██║  ██║██║  ██║╚██████╗██║  ██╗    ██████╔╝╚██████╔╝╚██████╗███████║",
+    "╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝  ╚═════╝╚══════╝"
   ],
-  "title": "WebShell",
-  "username": "visitor",
-  "hostname": "webshell",
+  "title": "HackDUCS",
+  "username": "hacker",
+  "hostname": "hack-ducs",
   "password": "050823",
   "repoLink": "https://github.com/nasan016/webshell",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "ducss@cs.du.ac.in",
+    "instagram": "ducsofficial",
+    "linkedin": "Delhi University Computer Science",
+    "linkedinUrl": "https://www.linkedin.com/school/department-of-computer-science-university-of-delhi/?viewAsMember=true"
   },
   "aboutGreeting": "Hi stranger. Welcome to WebShell.",
   "projects": [
@@ -45,7 +46,7 @@
       "input": "#FF7685"
     },
     "link": {
-      "text": "#B6AAEE",
+      "text": "#fff",
       "highlightColor": "#FFADE2",
       "highlightText": "#0C0623"
     },

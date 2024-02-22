@@ -5,6 +5,8 @@ import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
 import { PROJECTS } from "./commands/projects";
 import { createWhoami } from "./commands/whoami";
+import { SOCIALS } from './commands/socials';
+import { REGISTER } from './commands/register';
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
@@ -28,10 +30,9 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
+const COMMANDS = ["help", "about", "register", "whoami", "repo", "socials", "clear"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
-const REPO_LINK = command.repoLink;
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -191,7 +192,7 @@ function commandHandler(input : string) {
       break;
     case 'banner':
       if(bareMode) {
-        writeLines(["WebShell v1.0.0", "<br>"])
+        writeLines(["HackDUCS 2024 Shell", "<br>"])
         break;
       }
       writeLines(BANNER);
@@ -217,34 +218,38 @@ function commandHandler(input : string) {
       }
       writeLines(ABOUT);
       break;
-    case 'projects':
+    // case 'projects':
+    //   if(bareMode) {
+    //     writeLines(["I don't want you to break the other projects.", "<br>"])
+    //     break;
+    //   }
+    //   writeLines(PROJECTS);
+    //   break;
+    // case 'repo':
+    //   writeLines(["Redirecting to github.com...", "<br>"]);
+    //   setTimeout(() => {
+    //     window.open(REPO_LINK, '_blank');
+    //   }, 500);
+    //   break;
+    case 'socials':
       if(bareMode) {
-        writeLines(["I don't want you to break the other projects.", "<br>"])
+        writeLines(["Nothing to see here.", "<br>"])
         break;
       }
-      writeLines(PROJECTS);
-      break;
-    case 'repo':
-      writeLines(["Redirecting to github.com...", "<br>"]);
-      setTimeout(() => {
-        window.open(REPO_LINK, '_blank');
-      }, 500);
-      break;
-    case 'linkedin':
-      //add stuff here
-      break;
-    case 'github':
-      //add stuff here
-      break;
-    case 'email':
-      //add stuff here
-      break;
+      writeLines(SOCIALS);
+      break;  
+    case 'register':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(REGISTER);
+      break;   
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])
         break;
       }
-
       if (isSudo) {
         writeLines(["Usage: <span class='command'>'rm -rf &lt;dir&gt;'</span>", "<br>"]);
       } else {

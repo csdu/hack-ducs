@@ -2,29 +2,29 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Who made this website?",
+    "All About HackDUCS 2024",
     ],
     [
-      "'projects'",
-      "Maybe there's something interesting."
+      "'register'",
+      "Show Registration Details"
+    ],
+    [
+      "'socials'",
+      "List of Social Media Handles"
     ],
     [
       "'whoami'",
-      "A perplexing question."
+      "A Perplexing Question"
     ],
     ["'sudo'",
       "???"
     ],
-    [
-      "'repo'",
-      "View the Github Repository."
-    ],
     ["'banner'",
-      "Display the banner."
+      "Display System Banner"
     ],
     [
       "'clear'",
-      "Clear the terminal."
+      "Clear Screen"
     ]
   ],
 }
