@@ -224,12 +224,12 @@ function commandHandler(input : string) {
     //   }
     //   writeLines(PROJECTS);
     //   break;
-    // case 'repo':
-    //   writeLines(["Redirecting to github.com...", "<br>"]);
-    //   setTimeout(() => {
-    //     window.open(REPO_LINK, '_blank');
-    //   }, 500);
-    //   break;
+    case 'sankalan':
+      writeLines(["Redirecting to Sankalan website...", "<br>"]);
+      setTimeout(() => {
+        window.open('https://sankalan.ducs.in', '_blank');
+      }, 500);
+      break;
     case 'socials':
       if(bareMode) {
         writeLines(["Nothing to see here.", "<br>"])

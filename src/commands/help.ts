@@ -9,6 +9,10 @@ const helpObj = {
       "Show Registration Details"
     ],
     [
+      "'sankalan'",
+      "Open the Sankalan Website"
+    ],
+    [
       "'socials'",
       "List of Social Media Handles"
     ],
