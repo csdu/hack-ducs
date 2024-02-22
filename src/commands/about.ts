@@ -1,5 +1,3 @@
-import command from '../../config.json' assert {type: 'json'};
-
 const createAbout = () : string[] => {
   const about : string[] = [];
 
