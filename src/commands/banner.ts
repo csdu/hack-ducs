@@ -22,9 +22,9 @@ const createBanner = () : string[] => {
   banner.push(`Organized by the Delhi University Computer Science Society`);
   banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");
   banner.push("<br>");
-  banner.push(`<img src="/res/Devfolio_Logo-White.png" alt="DEVFOLIO LOGO" id="devfolio-logo" />
-  <img src="/res/Polygon_Logo-White.png" alt="POLYGON LOGO" id="polygon-logo" />
-  <img src="/res/ethindia-light.png" alt="ETHINDIA LOGO" id="ethindia-logo" />`);
+  banner.push(`<img src="https://sankalan.ducs.in/images/sponsors/Devfolio_Logo-White.png" alt="DEVFOLIO LOGO" id="devfolio-logo" />
+  <img src="https://sankalan.ducs.in/images/sponsors/Polygon_Logo-White.png" alt="POLYGON LOGO" id="polygon-logo" />
+  <img src="https://sankalan.ducs.in/images/sponsors/ethindia-light.png" alt="ETHINDIA LOGO" id="ethindia-logo" />`);
   banner.push("<br>");
   banner.push(`<div 
     class="apply-button" 
