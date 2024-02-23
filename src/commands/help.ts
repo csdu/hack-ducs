@@ -9,6 +9,10 @@ const helpObj = {
       "Show Registration Details"
     ],
     [
+      "'tracks'",
+      "Hackathon Tracks and Prizes"
+    ],
+    [
       "'sankalan'",
       "Open the Sankalan Website"
     ],

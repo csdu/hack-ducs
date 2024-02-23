@@ -6,6 +6,7 @@ import { DEFAULT } from "./commands/default";
 import { createWhoami } from "./commands/whoami";
 import { SOCIALS } from './commands/socials';
 import { REGISTER } from './commands/register';
+import { TRACKS } from './commands/tracks';
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
@@ -225,7 +226,7 @@ function commandHandler(input : string) {
     //   writeLines(PROJECTS);
     //   break;
     case 'sankalan':
-      writeLines(["Redirecting to Sankalan website...", "<br>"]);
+      writeLines(["<br/>", "Redirecting to Sankalan website...", "<br/>"]);
       setTimeout(() => {
         window.open('https://sankalan.ducs.in', '_blank');
       }, 500);
@@ -244,6 +245,13 @@ function commandHandler(input : string) {
       }
       writeLines(REGISTER);
       break;   
+    case 'tracks':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(TRACKS);
+      break;
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])
