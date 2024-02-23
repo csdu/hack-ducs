@@ -9,19 +9,18 @@ import command from '../config.json' assert {type: 'json'};
   const inputForeground = `input {color: ${command.colors.prompt.input}}`
   const outputColor = `.output {color: ${command.colors.prompt.input}}`
   const preHost = `#pre-host {color: ${command.colors.prompt.host}}`
-  const host = `#host {color: ${command.colors.prompt.host}}`
+  const host = `#host {color: ${command.colors.prompt.host};font-weight:bold}`
   const preUser = `#pre-user {color: ${command.colors.prompt.user}}`
-  const user = `#user {color: ${command.colors.prompt.user}}`
-  const prompt = `#prompt {color: ${command.colors.prompt.default}}`
+  const user = `#user {color: ${command.colors.prompt.user};font-weight:bold}`
+  const prompt = `#prompt {color: ${command.colors.prompt.default};font-weight:bold}`
   const banner = `pre {color: ${command.colors.banner}}`
-  const link = `a {color: ${command.colors.link.text}}`
+  const link = `a {color: ${command.colors.link.text};font-weight:bold}`
   const linkHighlight = `a:hover {background: ${command.colors.link.highlightColor}}`
   const linkTextHighlight = `a:hover {color: ${command.colors.link.highlightText}}`
-  const commandHighlight = `.command {color: ${command.colors.commands.textColor}}`
-  const keys = `.keys {color: ${command.colors.banner}}`
+  const commandHighlight = `.command {color: ${command.colors.commands.textColor};font-weight:bold}`
+  const keys = `.keys {color: ${command.colors.banner};font-weight:bold}`
 
   head.appendChild(style)
-
 
   if (!style.sheet) return
 
