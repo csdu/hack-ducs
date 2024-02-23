@@ -31,7 +31,9 @@ const createBanner = () : string[] => {
     data-hackathon-slug="hackducs-24" 
     data-button-theme="dark-inverted"
     style="height: 40px; width: 250px"
-  ></div>`);
+  ></div>
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+  `);
   banner.push("<br>");
           
   return banner;
