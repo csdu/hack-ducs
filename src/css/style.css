@@ -171,6 +171,28 @@ a:hover {
   font-weight: 400;
 }
 
+.devfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+#devfolio-logo, #polygon-logo, #ethindia-logo {
+  width: 120px;
+  margin-right: 1em;
+}
+
+#bar-1 {
+  display: flex;
+  align-items: center;
+
+}
+
+#bar-1 > iframe {
+  margin: 0 1em;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 10px;
