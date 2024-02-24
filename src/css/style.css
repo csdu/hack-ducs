@@ -188,6 +188,11 @@ a:hover {
   width: auto;
 }
 
+#wolfram-logo {
+  max-height: 26px;
+  width: auto;
+}
+
 #bar-1 {
   display: flex;
   align-items: center;
