@@ -10,7 +10,7 @@ const createAbout = () : string[] => {
     and innovation takes center stage! 🚀</span>
     <br/><br/>
     <span>Coming Soon.</span>
-    `
+`
   );
 
   about.push("<br>");

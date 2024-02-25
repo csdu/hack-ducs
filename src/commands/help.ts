@@ -9,8 +9,16 @@ const helpObj = {
       "Show Registration Details"
     ],
     [
+      "'schedule'",
+      "List the Event Schedule"
+    ],
+    [
+      "'rules'",
+      "View the Hackathon Rules"
+    ],
+    [
       "'tracks'",
-      "Hackathon Tracks and Prizes"
+      "List of Hackathon Tracks"
     ],
     [
       "'sankalan'",

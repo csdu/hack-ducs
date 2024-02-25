@@ -7,6 +7,8 @@ import { createWhoami } from "./commands/whoami";
 import { SOCIALS } from './commands/socials';
 import { REGISTER } from './commands/register';
 import { TRACKS } from './commands/tracks';
+import { SCHEDULE } from './commands/schedule';
+import { RULES } from './commands/rules';
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
@@ -210,6 +212,20 @@ function commandHandler(input : string) {
         break;
       }
       writeLines(createWhoami());
+      break;
+    case 'schedule':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(SCHEDULE);
+      break;
+    case 'rules':
+      if(bareMode) {
+        writeLines(["Nothing to see here.", "<br>"])
+        break;
+      }
+      writeLines(RULES);
       break;
     case 'about':
       if(bareMode) {
