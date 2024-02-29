@@ -5,7 +5,7 @@ import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
 import { createWhoami } from "./commands/whoami";
 import { SOCIALS } from './commands/socials';
-import { REGISTER } from './commands/register';
+// import { REGISTER } from './commands/register';
 import { TRACKS } from './commands/tracks';
 import { SCHEDULE } from './commands/schedule';
 import { RULES } from './commands/rules';
