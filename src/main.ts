@@ -255,12 +255,11 @@ function commandHandler(input : string) {
       writeLines(SOCIALS);
       break;  
     case 'register':
-      if(bareMode) {
-        writeLines(["Nothing to see here.", "<br>"])
-        break;
-      }
-      writeLines(REGISTER);
-      break;   
+      writeLines(["<br/>", "Redirecting to Devfolio...", "<br/>"]);
+      setTimeout(() => {
+        window.open('https://hackducs-24.devfolio.co', '_blank');
+      }, 500);
+      break;  
     case 'tracks':
       if(bareMode) {
         writeLines(["Nothing to see here.", "<br>"])
