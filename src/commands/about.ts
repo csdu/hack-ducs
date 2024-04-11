@@ -9,7 +9,9 @@ const createAbout = () : string[] => {
     <span>🚀 Welcome to HackDUCS - where ideas evolve, friendships form, <br/>
     and innovation takes center stage! 🚀</span>
     <br/><br/>
-    <span>Coming Soon.</span>
+    <span class="keys">When?</span> April 20-21, 2024
+    <br/>
+    <span class="keys">Where?</span> <a href="https://goo.gl/maps/vikER7ewLJwSJdg67" target="_blank">https://goo.gl/maps/vikER7ewLJwSJdg67</a>
 `
   );
 
