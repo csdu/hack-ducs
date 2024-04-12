@@ -20,6 +20,9 @@ const createBanner = () : string[] => {
   banner.push("<br>");
   banner.push("Welcome to HackDUCS @ Sankalan 2024");
   banner.push(`Organized by the Delhi University Computer Science Society`);
+  banner.push("<br>");
+  banner.push(`<span class='command'>UPDATE: Tracks released! Go through updated event details.</span>`);
+  banner.push("<br>");
   banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");
   banner.push("<br>");
           
